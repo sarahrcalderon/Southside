@@ -1,0 +1,107 @@
+.container-expedition {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+  justify-content: center;
+  padding: 180px;
+  background-color: #0c385b;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23385c79' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  width: 100%;
+  object-fit: cover;
+}
+.tittle-expedition {
+  font-size: 3rem;
+  font-family: "Archivo Black", sans-serif;
+  color: aliceblue;
+  grid-column: 1;
+  grid-row: 1;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(207, 240, 252),
+    0 0 0.2em rgb(115, 216, 236);
+}
+.about-expedition {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #e8e8e8ab;
+  line-height: 1.3;
+  font-weight: lighter;
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 200px;
+}
+
+.detail {
+  content: "";
+  border-bottom: solid;
+  color: rgba(215, 235, 235, 0.489);
+  width: 190px;
+  height: 5px;
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 250px;
+}
+.text-expedition {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  font-family: "Montserrat", sans-serif;
+  color: #e8e8e8;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.info-text {
+  font-size: 1.3rem;
+  grid-column: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #0c385b;
+}
+
+.email {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  background: #049498;
+  border-radius: 10px;
+  grid-column: 1;
+  padding: 20px;
+  color: #fafafa;
+  margin-bottom: 200px;
+}
+.email:hover {
+  background: #d6d3d3;
+  color: #044066;
+}
+.expedition-artic {
+  grid-column: 2;
+  grid-row: 2;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #2a2a2b7f;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 800px) {
+  .container-expedition {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .expedition-vantagens img {
+    display: none;
+  }
+  .detail {
+    display: none;
+  }
+  .info-text {
+    font-size: 1rem;
+    grid-column: 1fr;
+  }
+  .tittle-expedition {
+    font-size: 1.6rem;
+  }
+  .about-expedition {
+    font-size: 0.8rem;
+  }
+}

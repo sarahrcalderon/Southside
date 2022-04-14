@@ -1,0 +1,53 @@
+.home {
+  margin: auto;
+  max-width: 1500px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home {
+  background: url("/img/bear-home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-blend-mode: difference;
+  object-fit: cover;
+}
+
+.text-home {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-family: "Righteous", cursive;
+  color: #d3ddd2;
+  padding: 200px 40px;
+  align-items: center;
+}
+
+.link-home {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  background: #049498;
+  padding: 30px;
+  margin-left: 20px;
+  color: #fafafa;
+  border-radius: 50px;
+  align-items: center;
+  box-shadow: 0 0 1em #049398af;
+}
+
+.link-home:hover {
+  background: #fafafa;
+  color: #044066;
+}
+@media (max-width: 700px) {
+  .link-home {
+    font-size: 0.7rem;
+    padding: 15px;
+  }
+}

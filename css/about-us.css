@@ -1,0 +1,33 @@
+.about-us {
+  margin: auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.us {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  grid-column: 1;
+  border-radius: 6px;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 0px;
+  font-weight: bold;
+  grid-column: 1/-1;
+  color: #044066;
+}
+.text-about {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.3;
+  grid-column: 1/-1;
+  color: #444343;
+  margin-bottom: 100px;
+}
