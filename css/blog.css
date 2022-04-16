@@ -31,6 +31,7 @@
   padding: 20px 0px;
   font-family: "Montserrat", sans-serif;
   align-content: center;
-  background: -webkit-linear-gradient(#4092a1, #0c446a);
-  -webkit-text-fill-color: transparent;
+}
+.pages a {
+  color: #0c446a;
 }
