@@ -1,5 +1,5 @@
 .blog-bg {
-  background: url("/blog/blog-bg.jpg");
+  background: url("/img/blog.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -32,6 +32,5 @@
   font-family: "Montserrat", sans-serif;
   align-content: center;
   background: -webkit-linear-gradient(#4092a1, #0c446a);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
