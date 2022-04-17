@@ -17,8 +17,6 @@
   flex-direction: column;
   align-items: end;
   overflow: hidden;
-  background: url("/img/top-left-p.svg") no-repeat top 40px left 40px,
-    url("/img/bottom-right-p.svg") no-repeat bottom 40px right 40px;
 }
 
 .opinion-content blockquote {
