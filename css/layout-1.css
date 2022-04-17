@@ -64,6 +64,8 @@
     margin-left: 100px;
   }
   .button {
-    display: none;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
 }
